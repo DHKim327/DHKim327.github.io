@@ -1,6 +1,6 @@
-# Donghee Kim — private portfolio draft
+# Donghee Kim — private academic homepage
 
-This repository is the private staging version of Donghee Kim's research portfolio.
+This repository is the private staging version of Donghee Kim's academic homepage and CV.
 
 ## Preview locally
 
@@ -19,12 +19,11 @@ Then open `http://localhost:4173`.
 - The HTML includes `noindex` metadata and `robots.txt` blocks crawlers, but these are not access controls.
 - Publishing with standard GitHub Pages can expose the rendered site publicly even when the source repository is private. Add an authenticated hosting layer before publishing if private web access is required.
 
-## v1 scope
+## Current scope
 
-- Selected Work–first structure rather than a publication-heavy academic page
-- scUnify, spHOT, QCAgent, CovSF, and air-conditioner telemetry research
-- Pathology AI and research infrastructure
-- Compact publication list and research trajectory
-- Responsive, dependency-free HTML/CSS/JS
+- Academic profile, research interests, and recent updates
+- Selected research: scUnify, spHOT, and QCAgent
+- Compact publication list, research engineering, and career trajectory
+- Pathology AI and research-compute infrastructure
+- Responsive, dependency-free HTML/CSS
 - Local profile image stored under `assets/`
-
