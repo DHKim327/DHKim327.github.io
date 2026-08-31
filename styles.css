@@ -123,6 +123,17 @@ dd {
   filter: saturate(0.9);
 }
 
+.profile-placeholder {
+  display: grid;
+  place-items: center;
+  color: var(--faint);
+  border: 1px solid var(--line);
+  background: var(--soft);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.9rem;
+  filter: none;
+}
+
 .profile-links {
   display: flex;
   gap: 1rem;

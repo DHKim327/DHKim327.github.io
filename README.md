@@ -26,4 +26,4 @@ Then open `http://localhost:4173`.
 - Compact publication list, research engineering, and career trajectory
 - Pathology AI and research-compute infrastructure
 - Responsive, dependency-free HTML/CSS
-- Local profile image stored under `assets/`
+- Profile-photo placeholder ready for a new portrait
