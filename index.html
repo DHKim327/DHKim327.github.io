@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Private portfolio draft for Donghee Kim, AI Research Engineer.">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="theme-color" content="#101823">
+  <title>Donghee Kim — AI Research Engineer</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="draft-ribbon" role="status">
+    <span class="draft-dot" aria-hidden="true"></span>
+    Private draft · v1
+  </div>
+
+  <header class="site-header" data-header>
+    <a class="wordmark" href="#top" aria-label="Donghee Kim, home">
+      <span>DK</span>
+      <span class="wordmark-name">Donghee Kim</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="header-link" href="https://github.com/DHKim327" target="_blank" rel="noreferrer">
+      GitHub <span aria-hidden="true">↗</span>
+    </a>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow reveal">AI Research Engineer · Seoul, KR</p>
+        <h1 id="hero-title" class="reveal">
+          Building<br>learning<br>
+          methods into <em>systems.</em>
+        </h1>
+        <p class="hero-lede reveal">
+          I work across foundation models, representation learning, and
+          multi-agent systems—turning complex scientific data into reproducible,
+          extensible AI frameworks.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="button button-primary" href="#work">Explore selected work</a>
+          <a class="button button-ghost" href="https://orcid.org/0009-0005-2941-5220" target="_blank" rel="noreferrer">
+            ORCID <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <aside class="hero-profile reveal" aria-label="Profile summary">
+        <div class="portrait-shell">
+          <img
+            src="assets/profile.jpg"
+            alt="Portrait of Donghee Kim"
+            width="360"
+            height="360"
+          >
+          <span class="portrait-index" aria-hidden="true">01</span>
+        </div>
+        <dl class="profile-facts">
+          <div>
+            <dt>Current focus</dt>
+            <dd>Foundation models · AI agents</dd>
+          </div>
+          <div>
+            <dt>Research mode</dt>
+            <dd>Methods + open systems</dd>
+          </div>
+          <div>
+            <dt>Affiliation</dt>
+            <dd>SNUH Biomedical Research Institute</dd>
+          </div>
+        </dl>
+      </aside>
+
+      <ul class="hero-topics reveal" aria-label="Research topics">
+        <li>Foundation Models</li>
+        <li>Representation Learning</li>
+        <li>Agent Systems</li>
+        <li>Scientific ML</li>
+      </ul>
+    </section>
+
+    <section class="section work-section" id="work" aria-labelledby="work-title">
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-index">01 / Selected work</p>
+          <h2 id="work-title">Research questions,<br>shipped as frameworks.</h2>
+        </div>
+        <p>
+          A portfolio spanning reusable foundation-model infrastructure,
+          spatial learning, longitudinal modeling, and agentic systems.
+        </p>
+      </div>
+
+      <article class="project project-featured reveal" id="scunify">
+        <div class="project-visual visual-scunify">
+          <img
+            src="https://raw.githubusercontent.com/DHKim327/scUnify/main/docs/assets/overview.png"
+            alt="Overview of the scUnify framework"
+            loading="lazy"
+          >
+          <span class="visual-label">Featured research · 2026</span>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="status status-live">Preprint</span>
+            <span>Lead author · Framework lead</span>
+          </div>
+          <h3>scUnify</h3>
+          <p class="project-subtitle">One training and inference layer across heterogeneous single-cell foundation models.</p>
+          <p class="project-description">
+            Designed and built a common workflow connecting five foundation-model
+            backbones, downstream tasks, PEFT strategies, evaluation, and
+            multi-resource scheduling—while preserving each model’s native runtime.
+          </p>
+          <ul class="tag-list" aria-label="scUnify topics">
+            <li>Foundation models</li>
+            <li>PEFT</li>
+            <li>Multi-GPU</li>
+            <li>Research software</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://www.biorxiv.org/content/10.64898/2026.03.01.708392v2" target="_blank" rel="noreferrer">Paper ↗</a>
+            <a href="https://github.com/DHKim327/scUnify" target="_blank" rel="noreferrer">Code ↗</a>
+            <a href="https://scunify.readthedocs.io/" target="_blank" rel="noreferrer">Docs ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project project-featured project-reverse reveal" id="sphot">
+        <div class="project-visual visual-sphot">
+          <img
+            src="assets/sphot-overview.jpg"
+            alt="Overview of the spHOT framework"
+            loading="lazy"
+          >
+          <span class="visual-label">Method development · 2026</span>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="status status-live">Preprint</span>
+            <span>Method lead · Co-first author</span>
+          </div>
+          <h3>spHOT</h3>
+          <p class="project-subtitle">Phenotype-associated regional discovery in spatial transcriptomics.</p>
+          <p class="project-description">
+            Developed the core learning method combining spatial foundation-model
+            embeddings, a hierarchical domain tree, and teacher–student multiple
+            instance learning to localize coherent phenotype-associated regions.
+          </p>
+          <ul class="tag-list" aria-label="spHOT topics">
+            <li>Spatial learning</li>
+            <li>Hierarchical clustering</li>
+            <li>Weak supervision</li>
+            <li>MIL</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://www.biorxiv.org/content/10.64898/2026.08.11.744312v1" target="_blank" rel="noreferrer">Paper ↗</a>
+            <a href="https://github.com/DHKim327/spHOT" target="_blank" rel="noreferrer">Code ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project-card card-agent reveal" id="qcagent">
+          <div class="card-number">03</div>
+          <div class="project-meta">
+            <span class="status status-progress">In progress</span>
+            <span>Agent systems lead</span>
+          </div>
+          <h3>QCAgent</h3>
+          <p>
+            Building the multi-agent layer for medical data quality control,
+            orchestrating expert-defined quality rules through LangGraph and
+            heterogeneous vLLM/backend services.
+          </p>
+          <ul class="tag-list">
+            <li>LangGraph</li>
+            <li>vLLM</li>
+            <li>Tool use</li>
+            <li>Backend APIs</li>
+          </ul>
+          <span class="private-label">Private research system</span>
+        </article>
+
+        <article class="project-card card-covsf reveal" id="covsf">
+          <div class="card-metric">
+            <strong>0.92</strong>
+            <span>external AUROC</span>
+          </div>
+          <div class="project-meta">
+            <span class="status status-published">Published</span>
+            <span>Research originator · Co-first author</span>
+          </div>
+          <h3>CovSF</h3>
+          <p>
+            Originated the longitudinal forecasting problem and developed the
+            initial RNN pipeline for short-term COVID-19 severity progression,
+            validated on an external cohort and paired single-cell profiles.
+          </p>
+          <ul class="tag-list">
+            <li>Longitudinal EHR</li>
+            <li>RNN</li>
+            <li>Multimodal validation</li>
+          </ul>
+          <a class="card-link" href="https://doi.org/10.1038/s41598-025-07793-x" target="_blank" rel="noreferrer">Scientific Reports ↗</a>
+        </article>
+
+        <article class="project-card card-ac reveal" id="ac-telemetry">
+          <div class="card-metric">
+            <strong>1.47M</strong>
+            <span>device logs</span>
+          </div>
+          <div class="project-meta">
+            <span class="status status-published">Published</span>
+            <span>Originating analysis</span>
+          </div>
+          <h3>Air-conditioner behavior mining</h3>
+          <p>
+            Initiated time-series clustering of nationwide device telemetry to
+            characterize control behavior; the study matured into a deep-clustering
+            analysis of user comfort patterns.
+          </p>
+          <ul class="tag-list">
+            <li>Massive telemetry</li>
+            <li>Time series</li>
+            <li>Deep clustering</li>
+          </ul>
+          <a class="card-link" href="https://doi.org/10.1109/ACCESS.2025.3554749" target="_blank" rel="noreferrer">IEEE Access ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section systems-section" aria-labelledby="systems-title">
+      <div class="section-heading compact reveal">
+        <div>
+          <p class="section-index">02 / Engineering depth</p>
+          <h2 id="systems-title">Beyond the paper.</h2>
+        </div>
+        <p>Research infrastructure and accelerated analysis built around real collaborators and deadlines.</p>
+      </div>
+
+      <div class="systems-grid">
+        <article class="system-card reveal">
+          <span class="system-icon" aria-hidden="true">GPU</span>
+          <div>
+            <p class="system-kicker">Pathology AI</p>
+            <h3>GPU-accelerated tissue analysis</h3>
+            <p>
+              Reworked analysis code for GPU execution during a manuscript revision,
+              enabling time-critical multiplexed imaging analyses; also explored
+              feature-space augmentation for WSI patch learning.
+            </p>
+          </div>
+        </article>
+        <article class="system-card reveal">
+          <span class="system-icon" aria-hidden="true">OPS</span>
+          <div>
+            <p class="system-kicker">Research infrastructure</p>
+            <h3>Multi-user compute platform</h3>
+            <p>
+              Designed per-researcher Docker environments and role-aware command
+              wrappers, then added Grafana and Prometheus monitoring for shared
+              laboratory servers.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section publications-section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading compact reveal">
+        <div>
+          <p class="section-index">03 / Publications</p>
+          <h2 id="publications-title">Selected publications.</h2>
+        </div>
+        <p>Publications are presented as evidence of the work—not as the whole portfolio.</p>
+      </div>
+
+      <ol class="publication-list">
+        <li class="publication reveal">
+          <span class="pub-year">2026</span>
+          <div class="pub-content">
+            <p class="pub-title">scUnify: a unified framework for training and inference across multiple single-cell foundation models</p>
+            <p><strong>Donghee Kim</strong>, Ari Hong, Kyeonghun Jeong, Kwangsoo Kim</p>
+            <p class="pub-venue">bioRxiv · First author</p>
+          </div>
+          <a href="https://doi.org/10.64898/2026.03.01.708392" target="_blank" rel="noreferrer" aria-label="Open scUnify paper">↗</a>
+        </li>
+        <li class="publication reveal">
+          <span class="pub-year">2026</span>
+          <div class="pub-content">
+            <p class="pub-title">Phenotype-associated spatial biomarker discovery in spatial transcriptomics with spHOT</p>
+            <p>Hoeyoung Kim, <strong>Donghee Kim</strong>, Sangwook Jung, Sangseon Lee, Kwangsoo Kim</p>
+            <p class="pub-venue">bioRxiv · Co-first author, method lead</p>
+          </div>
+          <a href="https://doi.org/10.64898/2026.08.11.744312" target="_blank" rel="noreferrer" aria-label="Open spHOT paper">↗</a>
+        </li>
+        <li class="publication reveal">
+          <span class="pub-year">2025</span>
+          <div class="pub-content">
+            <p class="pub-title">Profiling short-term longitudinal severity progression and associated genes in COVID-19 patients using EHR and single-cell analysis</p>
+            <p>Seung Hwan Bae, <strong>Donghee Kim</strong>, Jaeyeon Jang, et al.</p>
+            <p class="pub-venue">Scientific Reports · Co-first author</p>
+          </div>
+          <a href="https://doi.org/10.1038/s41598-025-07793-x" target="_blank" rel="noreferrer" aria-label="Open CovSF paper">↗</a>
+        </li>
+        <li class="publication reveal">
+          <span class="pub-year">2025</span>
+          <div class="pub-content">
+            <p class="pub-title">Identifying AC Control Patterns From a Massive Longitudinal Log Dataset Using Deep Clustering</p>
+            <p>Seunghwan Bae, <strong>Donghee Kim</strong>, Seokhwan Seong, et al.</p>
+            <p class="pub-venue">IEEE Access</p>
+          </div>
+          <a href="https://doi.org/10.1109/ACCESS.2025.3554749" target="_blank" rel="noreferrer" aria-label="Open air-conditioner paper">↗</a>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section experience-section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading compact reveal">
+        <div>
+          <p class="section-index">04 / Trajectory</p>
+          <h2 id="experience-title">From exploration<br>to research ownership.</h2>
+        </div>
+        <p>A compact trajectory; the work above carries the detail.</p>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline-item reveal">
+          <span class="timeline-phase">Current</span>
+          <div>
+            <h3>AI Research Engineer · Technical Research Personnel</h3>
+            <p class="timeline-place">Seoul National University Hospital Biomedical Research Institute</p>
+            <p>Leading method and framework development across spatial learning, single-cell foundation models, and medical data agents.</p>
+          </div>
+        </li>
+        <li class="timeline-item reveal">
+          <span class="timeline-phase">Graduate</span>
+          <div>
+            <h3>B.S.–M.S. Linked Program</h3>
+            <p class="timeline-place">Kyungpook National University</p>
+            <p>Built the initial time-series and longitudinal modeling work that developed into the air-conditioner study and CovSF.</p>
+          </div>
+        </li>
+        <li class="timeline-item reveal">
+          <span class="timeline-phase">Undergraduate</span>
+          <div>
+            <h3>Software, product, and international programs</h3>
+            <p class="timeline-place">LikeLion · India training · webOS online internship</p>
+            <p>Early exposure to collaborative software development, product building, and international technical programs.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="about-card reveal">
+        <div>
+          <p class="section-index">05 / About</p>
+          <h2 id="about-title">Researcher in method.<br>Engineer in execution.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            My work sits between methodological research and the systems needed
+            to make it real. I am especially interested in foundation-model
+            adaptation, structured representation learning, and reliable agents
+            for complex environments.
+          </p>
+          <p>
+            The next direction is to transfer these capabilities beyond biomedical
+            data—including interactive and game environments where models must
+            perceive, reason, adapt, and act.
+          </p>
+          <div class="about-links">
+            <a href="https://github.com/DHKim327" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://orcid.org/0009-0005-2941-5220" target="_blank" rel="noreferrer">ORCID ↗</a>
+            <a href="https://scunify.readthedocs.io/" target="_blank" rel="noreferrer">Documentation ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Donghee Kim · AI Research Engineer</p>
+    <p>Private portfolio draft · <span data-year>2026</span></p>
+  </footer>
+</body>
+</html>
+
