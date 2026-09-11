@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300">
+  <defs>
+    <pattern id="cells" width="22" height="20" patternUnits="userSpaceOnUse"><circle cx="6" cy="6" r="4.1" fill="#7f9980"/><circle cx="17" cy="16" r="3.2" fill="#aabb97"/></pattern>
+    <pattern id="selected" width="22" height="20" patternUnits="userSpaceOnUse"><circle cx="6" cy="6" r="4.5" fill="#b0784d"/><circle cx="17" cy="16" r="3.7" fill="#c59a67"/></pattern>
+    <clipPath id="tissue"><path d="M87 71C144 28 215 66 254 52C306 34 368 66 370 119C416 166 372 222 323 218C281 260 228 230 200 237C145 252 92 227 85 194C41 167 44 107 87 71Z"/></clipPath>
+  </defs>
+  <rect width="660" height="300" fill="#eeede3"/>
+  <path d="M87 71C144 28 215 66 254 52C306 34 368 66 370 119C416 166 372 222 323 218C281 260 228 230 200 237C145 252 92 227 85 194C41 167 44 107 87 71Z" fill="#e2e6d7" stroke="#c3ceba"/>
+  <g clip-path="url(#tissue)"><rect x="45" y="38" width="350" height="218" fill="url(#cells)"/><path d="M238 78C302 60 355 90 351 151C328 185 302 208 269 191C233 195 223 159 212 133C200 111 212 86 238 78Z" fill="#ebe0c9"/><path d="M238 78C302 60 355 90 351 151C328 185 302 208 269 191C233 195 223 159 212 133C200 111 212 86 238 78Z" fill="url(#selected)"/><path d="M184 56C153 110 188 143 162 196L161 249M226 63C184 102 195 155 225 191L243 245" fill="none" stroke="#f5f3ea" stroke-width="6" opacity=".8"/></g>
+  <path d="M238 78C302 60 355 90 351 151C328 185 302 208 269 191C233 195 223 159 212 133C200 111 212 86 238 78Z" fill="none" stroke="#ac794e" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <path d="M330 106H435" fill="none" stroke="#ac794e"/><circle cx="330" cy="106" r="3" fill="#ac794e"/>
+  <text x="447" y="101" font-family="Georgia,serif" font-size="21" fill="#75563b">Where is the</text><text x="447" y="127" font-family="Georgia,serif" font-size="21" fill="#75563b">signal?</text>
+  <g font-family="Consolas,monospace" font-size="10" fill="#65745e"><circle cx="452" cy="176" r="4" fill="#819c7e"/><text x="466" y="180">Spatial domains</text><circle cx="452" cy="200" r="4" fill="#b17f50"/><text x="466" y="204">Associated region</text></g>
+  <text x="51" y="277" font-family="Consolas,monospace" font-size="9" letter-spacing="1" fill="#727963">CONCEPTUAL VIEW · NOT EXPERIMENTAL DATA</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300">
+  <defs><pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#acbbc5" opacity=".55"/></pattern></defs>
+  <rect width="660" height="300" fill="#e9edf0"/><rect x="25" y="25" width="610" height="250" fill="url(#grid)"/>
+  <g fill="none" stroke="#8d9fab" stroke-width="1.4"><path d="M195 150H256"/><path d="M387 150H419Q435 150 435 134V91H475"/><path d="M387 150H475"/><path d="M387 150H419Q435 150 435 166V209H475"/><path d="M545 237V256H136V183" stroke-dasharray="4 5" opacity=".6"/></g>
+  <path d="M51 112H195V180H83L68 193V180H51Z" fill="#f9faf9" stroke="#a5b2ba"/>
+  <text x="123" y="142" text-anchor="middle" font-family="Georgia,serif" font-size="19" fill="#3e515d">A data-quality</text><text x="123" y="164" text-anchor="middle" font-family="Georgia,serif" font-size="19" fill="#3e515d">question</text>
+  <rect x="256" y="98" width="131" height="105" rx="6" fill="#3f5666"/>
+  <g fill="#d9e4e8"><circle cx="288" cy="124" r="3"/><circle cx="301" cy="124" r="3"/><circle cx="314" cy="124" r="3"/></g>
+  <text x="321" y="158" text-anchor="middle" font-family="Georgia,serif" font-size="23" fill="#f8f9f5">Agent layer</text><text x="321" y="181" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#c9d6dd">orchestration</text>
+  <g fill="#f9faf9" stroke="#a5b2ba"><rect x="475" y="69" width="137" height="44" rx="4"/><rect x="475" y="128" width="137" height="44" rx="4"/><rect x="475" y="187" width="137" height="44" rx="4"/></g>
+  <g font-family="Consolas,monospace" font-size="12" fill="#425866" text-anchor="middle"><text x="543" y="96">Backend</text><text x="543" y="155">QC services</text><text x="543" y="214">Airflow APIs</text></g>
+  <text x="50" y="44" font-family="Consolas,monospace" font-size="9" letter-spacing="1.2" fill="#607683">CONNECTING TO THE TOOLS ALREADY IN USE</text>
+</svg>

@@ -3,264 +3,133 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Donghee Kim — AI research engineer working on biomedical AI, foundation models, and research systems.">
+  <meta name="description" content="Donghee Kim — AI Engineer &amp; Researcher. Background, education, and publications.">
   <meta name="robots" content="noindex, nofollow, noarchive">
   <meta name="theme-color" content="#ffffff">
-  <title>Donghee Kim | AI Research Engineer</title>
+  <title>Profiles — Donghee Kim</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=compact-experience-1">
+  <script>
+    (() => {
+      const destinations = {
+        about: "index.html#profiles",
+        introduction: "index.html#profiles",
+        experience: "index.html#appointment",
+        projects: "projects.html#projects",
+        scunify: "projects.html#scunify",
+        sphot: "projects.html#sphot",
+        covsf: "projects.html#covsf",
+        "ac-patterns": "projects.html#ac-patterns",
+        qcagent: "playground.html#qcagent",
+        "research-computing": "playground.html#research-computing"
+      };
+      const anchor = location.hash.slice(1);
+      const destination = Object.hasOwn(destinations, anchor) ? destinations[anchor] : null;
+      if (destination) location.replace(destination);
+    })();
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-
   <header class="site-header">
-    <nav class="nav-wrap" aria-label="Primary navigation">
-      <a class="site-name" href="#about">Donghee Kim</a>
-      <div class="nav-links">
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#experience">Experience</a>
-      </div>
+    <nav class="navigation" aria-label="Main navigation">
+      <a href="index.html" aria-current="true">Home</a>
+      <a href="playground.html">Playground</a>
     </nav>
   </header>
+  <div class="academic-layout">
+    <aside class="profile" aria-label="Profile and contents">
+      <img class="profile-photo" src="assets/profile-photo.svg" alt="Profile photo placeholder" width="180" height="225">
+      <h1>Donghee Kim</h1>
+      <p class="name-ko" lang="ko">김동희</p>
+      <p class="profile-role">AI Engineer &amp; Researcher</p>
+      <ul class="profile-links">
+        <li><a href="https://github.com/DHKim327" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.3 1.3-4.3-2.2-6-2.7m12 5v-3.4c.1-.9-.3-1.8-.8-2.4 2.8-.3 5.8-1.4 5.8-6.3a4.9 4.9 0 0 0-1.3-3.4 4.5 4.5 0 0 0-.1-3.4S17.5 2.1 15 3.8a12.1 12.1 0 0 0-6 0C6.5 2.1 5.4 2.4 5.4 2.4A4.5 4.5 0 0 0 5.3 5.8 4.9 4.9 0 0 0 4 9.2c0 4.9 3 6 5.8 6.3-.5.6-.9 1.5-.8 2.4v3.4"/></svg>GitHub</a></li>
+        <li><a href="https://orcid.org/0009-0005-2941-5220" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 10v6m0-9v.1m4 2.9h2a3 3 0 0 1 0 6h-2z"/></svg>ORCID</a></li>
+      </ul>
+      <nav class="contents-nav" aria-labelledby="contents-label">
+        <p class="contents-label" id="contents-label">Contents</p>
+        <ul>
+          <li><a href="index.html" aria-current="page">Profiles</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main id="main" tabindex="-1">
+      <div class="page-content">
+      <div class="profile-overview">
+        <section id="profiles" class="profiles-section" aria-labelledby="profiles-title">
+          <h2 id="profiles-title">Profiles</h2>
+          <p>I like understanding how things work and building things that are useful.</p>
+        </section>
+        <figure class="profile-portrait">
+          <img src="assets/profile-photo.svg" alt="Portrait placeholder" width="240" height="300">
+        </figure>
+      </div>
 
-  <main id="main" class="page-wrap">
-    <section class="intro" id="about">
-      <aside class="profile-column">
-        <div class="profile-photo profile-placeholder" role="img" aria-label="Profile photo placeholder">
-          <span>[Photo]</span>
+      <section id="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <div class="cv-entry"><div class="entry-heading"><h3>Kyungpook National University</h3><span class="entry-date"><time datetime="2021-08">2021.08</time> – <time datetime="2023-08">2023.08</time></span></div><p>Master’s degree in Computer Science and Engineering</p><p class="entry-detail">Advisor: Prof. Inuk Jung</p><p class="entry-detail">Thesis: <em>Predicting COVID-19 Severity on Time-course Clinical Data using LSTM</em></p></div>
+        <div class="cv-entry"><div class="entry-heading"><h3>Kyungpook National University</h3><span class="entry-date"><time datetime="2017-03">2017.03</time> – <time datetime="2021-08">2021.08</time></span></div><p>B.S. in Computer Science and Engineering</p></div>
+      </section>
+
+      <section id="appointment" aria-labelledby="experience-title">
+        <h2 id="experience-title">Experience</h2>
+        <div class="cv-entry"><div class="entry-heading"><h3>Seoul National University Hospital</h3><span class="entry-date"><time datetime="2023-10">2023.10</time> – <time datetime="2026-10">2026.10</time></span></div><p>AI Research Engineer · Biomedical Research Institute</p></div>
+        <div id="activities" role="group" aria-labelledby="undergraduate-title">
+          <h3 class="subsection-heading" id="undergraduate-title">Undergraduate</h3>
+          <div class="cv-entry compact-entry" id="lg-webos">
+            <div class="entry-heading"><h4>LG Electronics</h4><span class="entry-date"><time datetime="2020-07-27">2020.07</time> – <time datetime="2020-08-28">2020.08</time></span></div>
+            <p>Internship · webOS App Development</p>
+            <p class="entry-detail">Smart mirror application with React and OpenCV.</p>
+          </div>
+          <div class="cv-entry compact-entry" id="likelion">
+            <div class="entry-heading"><h4>LikeLion</h4></div>
+            <div class="entry-heading"><p>Organizer &amp; Instructor</p><span class="entry-date"><time datetime="2020-02">2020.02</time> – <time datetime="2021-08">2021.08</time></span></div>
+            <div class="entry-heading"><p>Member</p><span class="entry-date"><time datetime="2019-01-01">2019.01</time> – <time datetime="2019-12-31">2019.12</time></span></div>
+          </div>
+          <div class="cv-entry compact-entry" id="christ-university">
+            <div class="entry-heading"><h4>Christ University</h4><span class="entry-date"><time datetime="2018-07-03">2018.07</time> – <time datetime="2018-08-03">2018.08</time></span></div>
+            <p>One-month Summer Program · India</p>
+          </div>
         </div>
-        <div class="profile-links">
-          <a href="https://github.com/DHKim327" target="_blank" rel="noreferrer">GitHub ↗</a>
-          <a href="https://orcid.org/0009-0005-2941-5220" target="_blank" rel="noreferrer">ORCID ↗</a>
-        </div>
-      </aside>
+      </section>
 
-      <div class="intro-copy">
-        <h1>Donghee Kim <span>김동희</span></h1>
-        <p class="role">AI Research Engineer</p>
-        <p class="affiliation">Biomedical Research Institute, Seoul National University Hospital</p>
-
-        <div class="bio">
-          <p>
-            I develop machine-learning methods and reusable research systems for biomedical data.
-            My recent work spans single-cell foundation models, spatial transcriptomics, and
-            agent-based quality control for clinical data.
-          </p>
-          <p>
-            I work across the full research cycle—from framing a problem and designing a method
-            to implementing experiments, scaling computation, and releasing reproducible software.
-            Earlier work includes longitudinal clinical forecasting and large-scale time-series analysis.
-          </p>
-        </div>
-
-        <dl class="research-interests">
-          <dt>Research interests</dt>
-          <dd>Foundation models · Multimodal learning · Biomedical AI · Research systems</dd>
-        </dl>
+      <section id="publications" aria-labelledby="publications-title">
+        <div class="section-heading"><h2 id="publications-title">Publications</h2><p class="section-note">* Equal contribution</p></div>
+        <h3 class="publication-category">Preprints</h3>
+        <ol class="publication-list">
+          <li class="publication" id="publication-scunify">
+            <div class="publication-heading"><h4><a href="https://doi.org/10.64898/2026.03.01.708392" target="_blank" rel="noreferrer">scUnify: a unified framework for training and inference across multiple single-cell foundation models</a></h4><time datetime="2026">2026</time></div>
+            <p class="authors"><strong>Donghee Kim</strong>, Ari Hong, Kyeonghun Jeong, Kwangsoo Kim</p>
+            <p class="venue"><em>bioRxiv</em>, preprint</p>
+            <p class="paper-links"><a href="https://doi.org/10.64898/2026.03.01.708392" target="_blank" rel="noreferrer">[Paper]</a><a href="https://github.com/DHKim327/scUnify" target="_blank" rel="noreferrer">[Code]</a><a href="https://scunify.readthedocs.io/" target="_blank" rel="noreferrer">[Documentation]</a></p>
+          </li>
+          <li class="publication" id="publication-sphot">
+            <div class="publication-heading"><h4><a href="https://doi.org/10.64898/2026.08.11.744312" target="_blank" rel="noreferrer">Phenotype-associated spatial biomarker discovery in spatial transcriptomics with spHOT</a></h4><time datetime="2026">2026</time></div>
+            <p class="authors">Hoeyoung Kim*, <strong>Donghee Kim*</strong>, Sangwook Jung, Sangseon Lee, Kwangsoo Kim</p>
+            <p class="venue"><em>bioRxiv</em>, preprint</p>
+            <p class="paper-links"><a href="https://doi.org/10.64898/2026.08.11.744312" target="_blank" rel="noreferrer">[Paper]</a><a href="https://github.com/DHKim327/spHOT" target="_blank" rel="noreferrer">[Code]</a></p>
+          </li>
+        </ol>
+        <h3 class="publication-category">Journal Articles</h3>
+        <ol class="publication-list">
+          <li class="publication" id="publication-covsf">
+            <div class="publication-heading"><h4><a href="https://doi.org/10.1038/s41598-025-07793-x" target="_blank" rel="noreferrer">Profiling short-term longitudinal severity progression and associated genes in COVID-19 patients using EHR and single-cell analysis</a></h4><time datetime="2025">2025</time></div>
+            <p class="authors">Seung Hwan Bae*, <strong>Donghee Kim*</strong>, Jaeyeon Jang, et al.</p>
+            <p class="venue"><em>Scientific Reports</em>, 15, 21098</p>
+            <p class="paper-links"><a href="https://doi.org/10.1038/s41598-025-07793-x" target="_blank" rel="noreferrer">[Paper]</a><a href="https://github.com/cobi-git/CovSF" target="_blank" rel="noreferrer">[Code]</a></p>
+          </li>
+          <li class="publication" id="publication-ac-patterns">
+            <div class="publication-heading"><h4><a href="https://doi.org/10.1109/ACCESS.2025.3554749" target="_blank" rel="noreferrer">Identifying AC Control Patterns From a Massive Longitudinal Log Dataset Using Deep Clustering</a></h4><time datetime="2025">2025</time></div>
+            <p class="authors">Seunghwan Bae, <strong>Donghee Kim</strong>, Seokhwan Seong, Jaeyeon Jang, et al.</p>
+            <p class="venue"><em>IEEE Access</em>, 13, 56195–56209</p>
+            <p class="paper-links"><a href="https://doi.org/10.1109/ACCESS.2025.3554749" target="_blank" rel="noreferrer">[Paper]</a></p>
+          </li>
+        </ol>
+      </section>
       </div>
-    </section>
-
-    <section class="section news" aria-labelledby="news-title">
-      <div class="section-heading">
-        <p class="eyebrow">Updates</p>
-        <h2 id="news-title">News</h2>
-      </div>
-      <div class="news-list">
-        <div class="news-item">
-          <time datetime="2026-08">Aug 2026</time>
-          <p><a href="https://doi.org/10.64898/2026.08.11.744312" target="_blank" rel="noreferrer">spHOT</a> was released as a bioRxiv preprint.</p>
-        </div>
-        <div class="news-item">
-          <time datetime="2026-08">Aug 2026</time>
-          <p><a href="https://doi.org/10.64898/2026.03.01.708392" target="_blank" rel="noreferrer">scUnify</a> was released as a bioRxiv preprint.</p>
-        </div>
-        <div class="news-item">
-          <time datetime="2025">2025</time>
-          <p>CovSF was published in <em>Scientific Reports</em>.</p>
-        </div>
-        <div class="news-item">
-          <time datetime="2025">2025</time>
-          <p>Our study of 1.47 million air-conditioner devices was published in <em>IEEE Access</em>.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="research" aria-labelledby="research-title">
-      <div class="section-heading">
-        <p class="eyebrow">Current work</p>
-        <h2 id="research-title">Selected Research</h2>
-      </div>
-
-      <div class="research-list">
-        <article class="research-item">
-          <a class="research-thumb" href="https://github.com/DHKim327/scUnify" target="_blank" rel="noreferrer">
-            <img src="https://raw.githubusercontent.com/DHKim327/scUnify/main/docs/assets/overview.png" alt="scUnify framework overview">
-          </a>
-          <div>
-            <p class="item-meta">Framework lead · First author</p>
-            <h3>scUnify</h3>
-            <p>
-              A unified framework for training and inference across multiple single-cell
-              foundation models. I led the framework design and implementation, including
-              model adapters, downstream tasks, parameter-efficient fine-tuning, evaluation,
-              and resource-aware execution.
-            </p>
-            <p class="item-links">
-              <a href="https://doi.org/10.64898/2026.03.01.708392" target="_blank" rel="noreferrer">Paper ↗</a>
-              <a href="https://github.com/DHKim327/scUnify" target="_blank" rel="noreferrer">Code ↗</a>
-              <a href="https://scunify.readthedocs.io/" target="_blank" rel="noreferrer">Docs ↗</a>
-            </p>
-          </div>
-        </article>
-
-        <article class="research-item">
-          <a class="research-thumb" href="https://github.com/DHKim327/spHOT" target="_blank" rel="noreferrer">
-            <img src="assets/sphot-overview.jpg" alt="spHOT method overview">
-          </a>
-          <div>
-            <p class="item-meta">Method lead · Co-first author</p>
-            <h3>spHOT</h3>
-            <p>
-              A deep-learning framework for phenotype-associated regional detection in spatial
-              transcriptomics. I developed the core method around spatial foundation-model
-              embeddings, hierarchical domain trees, and teacher–student multiple-instance learning.
-            </p>
-            <p class="item-links">
-              <a href="https://doi.org/10.64898/2026.08.11.744312" target="_blank" rel="noreferrer">Paper ↗</a>
-              <a href="https://github.com/DHKim327/spHOT" target="_blank" rel="noreferrer">Code ↗</a>
-            </p>
-          </div>
-        </article>
-
-        <article class="research-item">
-          <div class="research-thumb text-thumb" aria-hidden="true">
-            <span>Clinical data</span>
-            <strong>QC Agent</strong>
-            <small>Query → plan → execute → validate</small>
-          </div>
-          <div>
-            <p class="item-meta">Agent systems lead · Ongoing</p>
-            <h3>QCAgent</h3>
-            <p>
-              A multi-agent framework for quality control in CDM and KR-CDI hospital-data
-              integration. I am responsible for the agent layer: receiving queries through
-              vLLM and backend services, orchestrating specialized agents with LangGraph,
-              and connecting them to existing Airflow APIs.
-            </p>
-            <p class="item-links"><span>Private research project</span></p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="publications" aria-labelledby="publications-title">
-      <div class="section-heading">
-        <p class="eyebrow">Research output</p>
-        <h2 id="publications-title">Publications</h2>
-      </div>
-
-      <div class="publication-list">
-        <article class="publication">
-          <time datetime="2026">2026</time>
-          <div>
-            <h3>scUnify: a unified framework for training and inference across multiple single-cell foundation models</h3>
-            <p><strong>Donghee Kim</strong>, Ari Hong, Kyeonghun Jeong, Kwangsoo Kim</p>
-            <p class="venue"><em>bioRxiv</em>, preprint · <a href="https://doi.org/10.64898/2026.03.01.708392" target="_blank" rel="noreferrer">Paper</a> · <a href="https://github.com/DHKim327/scUnify" target="_blank" rel="noreferrer">Code</a></p>
-          </div>
-        </article>
-
-        <article class="publication">
-          <time datetime="2026">2026</time>
-          <div>
-            <h3>Phenotype-associated spatial biomarker discovery in spatial transcriptomics with spHOT</h3>
-            <p>Hoeyoung Kim*, <strong>Donghee Kim*</strong>, Sangwook Jung, Sangseon Lee, Kwangsoo Kim</p>
-            <p class="venue"><em>bioRxiv</em>, preprint · *Equal contribution · <a href="https://doi.org/10.64898/2026.08.11.744312" target="_blank" rel="noreferrer">Paper</a> · <a href="https://github.com/DHKim327/spHOT" target="_blank" rel="noreferrer">Code</a></p>
-          </div>
-        </article>
-
-        <article class="publication">
-          <time datetime="2025">2025</time>
-          <div>
-            <h3>Profiling short-term longitudinal severity progression and associated genes in COVID-19 patients using EHR and single-cell analysis</h3>
-            <p>Seung Hwan Bae*, <strong>Donghee Kim*</strong>, Jaeyeon Jang, et al.</p>
-            <p class="venue"><em>Scientific Reports</em>, 15:21098 · *Equal contribution · <a href="https://doi.org/10.1038/s41598-025-07793-x" target="_blank" rel="noreferrer">Paper</a></p>
-          </div>
-        </article>
-
-        <article class="publication">
-          <time datetime="2025">2025</time>
-          <div>
-            <h3>Identifying AC Control Patterns From a Massive Longitudinal Log Dataset Using Deep Clustering</h3>
-            <p>Seunghwan Bae, <strong>Donghee Kim</strong>, Seokhwan Seong, Jaeyeon Jang, et al.</p>
-            <p class="venue"><em>IEEE Access</em>, 13:56195–56209 · <a href="https://doi.org/10.1109/ACCESS.2025.3554749" target="_blank" rel="noreferrer">Paper</a></p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="engineering-title">
-      <div class="section-heading">
-        <p class="eyebrow">Beyond papers</p>
-        <h2 id="engineering-title">Research Engineering</h2>
-      </div>
-      <div class="compact-grid">
-        <article>
-          <h3>Research compute platform</h3>
-          <p>
-            Built isolated Docker environments for researchers and a role-aware command wrapper
-            for administrators and users. Added lab-wide monitoring with Prometheus and Grafana.
-          </p>
-        </article>
-        <article>
-          <h3>Pathology AI &amp; GPU analysis</h3>
-          <p>
-            Explored WSI patch augmentation and converted single-cell imaging analyses to
-            GPU-accelerated workflows, shortening revision-scale experiments for a multiplexed
-            imaging study.
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="experience" aria-labelledby="experience-title">
-      <div class="section-heading">
-        <p class="eyebrow">Background</p>
-        <h2 id="experience-title">Experience &amp; Education</h2>
-      </div>
-      <div class="timeline">
-        <article>
-          <p class="timeline-label">Current</p>
-          <div>
-            <h3>AI Research Engineer · Technical Research Personnel</h3>
-            <p>Biomedical Research Institute, Seoul National University Hospital</p>
-            <p class="detail">Biomedical AI methods, research software, and compute infrastructure.</p>
-          </div>
-        </article>
-        <article>
-          <p class="timeline-label">Graduate</p>
-          <div>
-            <h3>B.S.–M.S. Linked Program</h3>
-            <p>Kyungpook National University · Computer Science &amp; Engineering</p>
-            <p class="detail">Longitudinal clinical modeling and large-scale time-series research.</p>
-          </div>
-        </article>
-        <article>
-          <p class="timeline-label">Undergraduate</p>
-          <div>
-            <h3>Early projects &amp; programs</h3>
-            <p class="detail">LikeLion student community · India summer program · LG webOS online internship.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-inner">
-      <p>Donghee Kim</p>
-      <p>This site is currently a private draft and is excluded from search indexing.</p>
-    </div>
-  </footer>
+    </main>
+  </div>
 </body>
 </html>

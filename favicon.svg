@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="8" fill="#ffffff"/>
-  <rect x="1" y="1" width="62" height="62" rx="7" fill="none" stroke="#dfe4e9" stroke-width="2"/>
-  <text x="32" y="40" fill="#20252d" font-family="Georgia, serif" font-size="24" text-anchor="middle">DK</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="6" fill="#1764a2"/><text x="8" y="43" font-family="Arial,sans-serif" font-size="33" fill="white">DK</text></svg>

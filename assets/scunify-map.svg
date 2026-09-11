@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="390" viewBox="0 0 660 390">
+  <defs><pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#bbc9b5" opacity=".65"/></pattern></defs>
+  <rect width="660" height="390" fill="#e8eee5"/><rect x="24" y="24" width="612" height="342" fill="url(#grid)"/>
+  <g fill="none" stroke="#8da58b" stroke-width="1.3"><path d="M187 82H224Q242 82 242 106V174Q242 195 267 195"/><path d="M187 137H222Q242 137 242 157V177Q242 195 267 195"/><path d="M187 192H267"/><path d="M187 247H222Q242 247 242 227V214Q242 195 267 195"/><path d="M187 302H224Q242 302 242 278V216Q242 195 267 195"/><path d="M390 195H417Q436 195 436 175V123Q436 105 457 105H475"/><path d="M390 195H475"/><path d="M390 195H417Q436 195 436 215V267Q436 285 457 285H475"/></g>
+  <g fill="#f8faf4" stroke="#a8b9a0"><rect x="48" y="63" width="139" height="38" rx="5"/><rect x="48" y="118" width="139" height="38" rx="5"/><rect x="48" y="173" width="139" height="38" rx="5"/><rect x="48" y="228" width="139" height="38" rx="5"/><rect x="48" y="283" width="139" height="38" rx="5"/></g>
+  <g font-family="Consolas,monospace" font-size="13" fill="#405342" text-anchor="middle"><text x="118" y="87">Geneformer</text><text x="118" y="142">scGPT</text><text x="118" y="197">scFoundation</text><text x="118" y="252">UCE</text><text x="118" y="307">Nicheformer</text></g>
+  <circle cx="330" cy="195" r="69" fill="#d7e1cf" stroke="#bcccb4"/><circle cx="330" cy="195" r="58" fill="#314f3e"/>
+  <text x="330" y="201" text-anchor="middle" font-family="Georgia,serif" font-size="27" fill="#f7f8ee">scUnify</text>
+  <g fill="#f8faf4" stroke="#a8b9a0"><rect x="475" y="80" width="140" height="50" rx="5"/><rect x="475" y="170" width="140" height="50" rx="5"/><rect x="475" y="260" width="140" height="50" rx="5"/></g>
+  <g font-family="Consolas,monospace" font-size="12" fill="#405342" text-anchor="middle"><text x="545" y="101">Downstream</text><text x="545" y="117">tasks</text><text x="545" y="200">Adaptation</text><text x="545" y="290">Evaluation</text></g>
+  <g fill="#6c8169" font-family="Consolas,monospace" font-size="9" letter-spacing="1.2"><text x="49" y="40">MODEL-SPECIFIC</text><text x="478" y="40">REUSABLE</text></g>
+  <text x="330" y="346" text-anchor="middle" font-family="Consolas,monospace" font-size="10" fill="#61725c">a common interface, with room for differences</text>
+</svg>
