@@ -3,31 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Donghee Kim — AI Engineer &amp; Researcher. Background, education, and publications.">
+  <meta name="description" content="Donghee Kim — AI Engineer &amp; Researcher.">
   <meta name="robots" content="noindex, nofollow, noarchive">
   <meta name="theme-color" content="#ffffff">
   <title>Profiles — Donghee Kim</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=compact-experience-1">
-  <script>
-    (() => {
-      const destinations = {
-        about: "index.html#profiles",
-        introduction: "index.html#profiles",
-        experience: "index.html#appointment",
-        projects: "projects.html#projects",
-        scunify: "projects.html#scunify",
-        sphot: "projects.html#sphot",
-        covsf: "projects.html#covsf",
-        "ac-patterns": "projects.html#ac-patterns",
-        qcagent: "playground.html#qcagent",
-        "research-computing": "playground.html#research-computing"
-      };
-      const anchor = location.hash.slice(1);
-      const destination = Object.hasOwn(destinations, anchor) ? destinations[anchor] : null;
-      if (destination) location.replace(destination);
-    })();
-  </script>
+  <link rel="stylesheet" href="styles.css?v=profile-photo-about-1">
+  <script src="legacy-routes.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -51,6 +33,8 @@
         <p class="contents-label" id="contents-label">Contents</p>
         <ul>
           <li><a href="index.html" aria-current="page">Profiles</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="publications.html">Publications</a></li>
           <li><a href="projects.html">Projects</a></li>
         </ul>
       </nav>
@@ -58,76 +42,14 @@
     <main id="main" tabindex="-1">
       <div class="page-content">
       <div class="profile-overview">
+        <figure class="profile-portrait">
+          <img src="assets/profile-photo.svg" alt="Photo placeholder" width="960" height="540">
+        </figure>
         <section id="profiles" class="profiles-section" aria-labelledby="profiles-title">
-          <h2 id="profiles-title">Profiles</h2>
+          <h2 id="profiles-title">About</h2>
           <p>I like understanding how things work and building things that are useful.</p>
         </section>
-        <figure class="profile-portrait">
-          <img src="assets/profile-photo.svg" alt="Portrait placeholder" width="240" height="300">
-        </figure>
       </div>
-
-      <section id="education" aria-labelledby="education-title">
-        <h2 id="education-title">Education</h2>
-        <div class="cv-entry"><div class="entry-heading"><h3>Kyungpook National University</h3><span class="entry-date"><time datetime="2021-08">2021.08</time> – <time datetime="2023-08">2023.08</time></span></div><p>Master’s degree in Computer Science and Engineering</p><p class="entry-detail">Advisor: Prof. Inuk Jung</p><p class="entry-detail">Thesis: <em>Predicting COVID-19 Severity on Time-course Clinical Data using LSTM</em></p></div>
-        <div class="cv-entry"><div class="entry-heading"><h3>Kyungpook National University</h3><span class="entry-date"><time datetime="2017-03">2017.03</time> – <time datetime="2021-08">2021.08</time></span></div><p>B.S. in Computer Science and Engineering</p></div>
-      </section>
-
-      <section id="appointment" aria-labelledby="experience-title">
-        <h2 id="experience-title">Experience</h2>
-        <div class="cv-entry"><div class="entry-heading"><h3>Seoul National University Hospital</h3><span class="entry-date"><time datetime="2023-10">2023.10</time> – <time datetime="2026-10">2026.10</time></span></div><p>AI Research Engineer · Biomedical Research Institute</p></div>
-        <div id="activities" role="group" aria-labelledby="undergraduate-title">
-          <h3 class="subsection-heading" id="undergraduate-title">Undergraduate</h3>
-          <div class="cv-entry compact-entry" id="lg-webos">
-            <div class="entry-heading"><h4>LG Electronics</h4><span class="entry-date"><time datetime="2020-07-27">2020.07</time> – <time datetime="2020-08-28">2020.08</time></span></div>
-            <p>Internship · webOS App Development</p>
-            <p class="entry-detail">Smart mirror application with React and OpenCV.</p>
-          </div>
-          <div class="cv-entry compact-entry" id="likelion">
-            <div class="entry-heading"><h4>LikeLion</h4></div>
-            <div class="entry-heading"><p>Organizer &amp; Instructor</p><span class="entry-date"><time datetime="2020-02">2020.02</time> – <time datetime="2021-08">2021.08</time></span></div>
-            <div class="entry-heading"><p>Member</p><span class="entry-date"><time datetime="2019-01-01">2019.01</time> – <time datetime="2019-12-31">2019.12</time></span></div>
-          </div>
-          <div class="cv-entry compact-entry" id="christ-university">
-            <div class="entry-heading"><h4>Christ University</h4><span class="entry-date"><time datetime="2018-07-03">2018.07</time> – <time datetime="2018-08-03">2018.08</time></span></div>
-            <p>One-month Summer Program · India</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="publications" aria-labelledby="publications-title">
-        <div class="section-heading"><h2 id="publications-title">Publications</h2><p class="section-note">* Equal contribution</p></div>
-        <h3 class="publication-category">Preprints</h3>
-        <ol class="publication-list">
-          <li class="publication" id="publication-scunify">
-            <div class="publication-heading"><h4><a href="https://doi.org/10.64898/2026.03.01.708392" target="_blank" rel="noreferrer">scUnify: a unified framework for training and inference across multiple single-cell foundation models</a></h4><time datetime="2026">2026</time></div>
-            <p class="authors"><strong>Donghee Kim</strong>, Ari Hong, Kyeonghun Jeong, Kwangsoo Kim</p>
-            <p class="venue"><em>bioRxiv</em>, preprint</p>
-            <p class="paper-links"><a href="https://doi.org/10.64898/2026.03.01.708392" target="_blank" rel="noreferrer">[Paper]</a><a href="https://github.com/DHKim327/scUnify" target="_blank" rel="noreferrer">[Code]</a><a href="https://scunify.readthedocs.io/" target="_blank" rel="noreferrer">[Documentation]</a></p>
-          </li>
-          <li class="publication" id="publication-sphot">
-            <div class="publication-heading"><h4><a href="https://doi.org/10.64898/2026.08.11.744312" target="_blank" rel="noreferrer">Phenotype-associated spatial biomarker discovery in spatial transcriptomics with spHOT</a></h4><time datetime="2026">2026</time></div>
-            <p class="authors">Hoeyoung Kim*, <strong>Donghee Kim*</strong>, Sangwook Jung, Sangseon Lee, Kwangsoo Kim</p>
-            <p class="venue"><em>bioRxiv</em>, preprint</p>
-            <p class="paper-links"><a href="https://doi.org/10.64898/2026.08.11.744312" target="_blank" rel="noreferrer">[Paper]</a><a href="https://github.com/DHKim327/spHOT" target="_blank" rel="noreferrer">[Code]</a></p>
-          </li>
-        </ol>
-        <h3 class="publication-category">Journal Articles</h3>
-        <ol class="publication-list">
-          <li class="publication" id="publication-covsf">
-            <div class="publication-heading"><h4><a href="https://doi.org/10.1038/s41598-025-07793-x" target="_blank" rel="noreferrer">Profiling short-term longitudinal severity progression and associated genes in COVID-19 patients using EHR and single-cell analysis</a></h4><time datetime="2025">2025</time></div>
-            <p class="authors">Seung Hwan Bae*, <strong>Donghee Kim*</strong>, Jaeyeon Jang, et al.</p>
-            <p class="venue"><em>Scientific Reports</em>, 15, 21098</p>
-            <p class="paper-links"><a href="https://doi.org/10.1038/s41598-025-07793-x" target="_blank" rel="noreferrer">[Paper]</a><a href="https://github.com/cobi-git/CovSF" target="_blank" rel="noreferrer">[Code]</a></p>
-          </li>
-          <li class="publication" id="publication-ac-patterns">
-            <div class="publication-heading"><h4><a href="https://doi.org/10.1109/ACCESS.2025.3554749" target="_blank" rel="noreferrer">Identifying AC Control Patterns From a Massive Longitudinal Log Dataset Using Deep Clustering</a></h4><time datetime="2025">2025</time></div>
-            <p class="authors">Seunghwan Bae, <strong>Donghee Kim</strong>, Seokhwan Seong, Jaeyeon Jang, et al.</p>
-            <p class="venue"><em>IEEE Access</em>, 13, 56195–56209</p>
-            <p class="paper-links"><a href="https://doi.org/10.1109/ACCESS.2025.3554749" target="_blank" rel="noreferrer">[Paper]</a></p>
-          </li>
-        </ol>
-      </section>
       </div>
     </main>
   </div>

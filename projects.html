@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Donghee Kim — Projects, roles, and skills in AI engineering and research.">
+  <meta name="description" content="Donghee Kim — Research and engineering projects, contributions, and methods.">
   <meta name="robots" content="noindex, nofollow, noarchive">
   <meta name="theme-color" content="#ffffff">
   <title>Projects — Donghee Kim</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=compact-experience-1">
+  <link rel="stylesheet" href="styles.css?v=project-header-links-1">
+  <script src="legacy-routes.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -32,6 +33,8 @@
         <p class="contents-label" id="contents-label">Contents</p>
         <ul>
           <li><a href="index.html">Profiles</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="publications.html">Publications</a></li>
           <li><a href="projects.html" aria-current="page">Projects</a></li>
         </ul>
       </nav>
@@ -40,56 +43,169 @@
       <div class="page-content">
       <section id="projects" aria-labelledby="projects-title">
         <h2 id="projects-title">Projects</h2>
-        <article class="project-entry" id="scunify" aria-labelledby="scunify-title">
-          <p class="project-role">Project Lead</p>
-          <h3 id="scunify-title">scUnify <span class="project-title-detail">— Unified Pipeline for Domain-Specific Foundation Models in Bioinformatics</span></h3>
-          <p class="project-description">A common workflow for training, fine-tuning, and evaluating single-cell foundation models.</p>
-          <h4 class="skills-heading">Required Skills</h4>
-          <div class="project-requires">
-            <p><strong>Deep Learning:</strong> PyTorch, PEFT, Transformers</p>
-            <p><strong>AI Engineering:</strong> Ray, Hugging Face Accelerate</p>
-            <p><strong>Development:</strong> FastAPI</p>
-          </div>
-          <p class="project-links"><a href="index.html#publication-scunify">[Publication]</a><a href="https://github.com/DHKim327/scUnify" target="_blank" rel="noreferrer">[Code]</a><a href="https://scunify.readthedocs.io/" target="_blank" rel="noreferrer">[Documentation]</a></p>
-        </article>
+        <ul class="keyword-legend" aria-label="Keyword categories">
+          <li class="keyword keyword-dl">Deep Learning</li>
+          <li class="keyword keyword-analysis">Data Analysis</li>
+          <li class="keyword keyword-ai">AI Engineering</li>
+          <li class="keyword keyword-software">Software Engineering</li>
+        </ul>
+        <section class="project-group" id="current-projects" aria-labelledby="current-projects-title">
+          <h3 class="project-group-heading" id="current-projects-title">Current Projects</h3>
+          <div class="project-grid">
+            <article class="project-entry project-card" id="qcagent" aria-labelledby="qcagent-title">
+              <div class="project-heading">
+                <h4 id="qcagent-title">Agent Development for Healthcare Database Quality Control</h4>
+              </div>
+              <ul class="project-keywords" aria-label="Keywords">
+                <li class="keyword keyword-ai" title="AI Engineering" aria-label="LLM Agents, AI Engineering">LLM Agents</li>
+                <li class="keyword keyword-analysis" title="Data Analysis" aria-label="Data Quality, Data Analysis">Data Quality</li>
+                <li class="keyword keyword-software" title="Software Engineering" aria-label="Workflow Automation, Software Engineering">Workflow Automation</li>
+              </ul>
+              <dl class="project-meta">
+                <div class="project-meta-row">
+                  <dt>Role</dt>
+                  <dd>Agent Development Lead</dd>
+                </div>
+              </dl>
+              <hr class="project-divider">
+              <div class="project-description">
+                <strong class="project-description-label">Description</strong>
+                <p>Develops an LLM agent to automate data quality checks across healthcare databases, including CDM and CDI.</p>
+              </div>
+            </article>
 
-        <article class="project-entry" id="sphot" aria-labelledby="sphot-title">
-          <p class="project-role">Methodology Lead</p>
-          <h3 id="sphot-title">spHOT <span class="project-title-detail">— Region Discovery in Spatial Transcriptomics</span></h3>
-          <p class="project-description">Identifies case-associated tissue regions from sample-level phenotype labels.</p>
-          <h4 class="skills-heading">Required Skills</h4>
-          <div class="project-requires">
-            <p><strong>Deep Learning:</strong> Multiple Instance Learning, Knowledge Distillation, PyTorch</p>
-            <p><strong>Analysis:</strong> Spatial &amp; Single-Cell Transcriptomics (Scanpy, Squidpy)</p>
-          </div>
-          <p class="project-links"><a href="index.html#publication-sphot">[Publication]</a><a href="https://github.com/DHKim327/spHOT" target="_blank" rel="noreferrer">[Code]</a></p>
-        </article>
+            <article class="project-entry project-card" id="scunify" aria-labelledby="scunify-title">
+              <div class="project-heading">
+                <h4 id="scunify-title">Unified Framework for Single-Cell Foundation Models with Parameter-Efficient Fine-Tuning</h4>
+                <p class="project-links"><a href="publications.html#publication-scunify">[Publications]</a><a href="https://github.com/DHKim327/scUnify" target="_blank" rel="noreferrer">[Code]</a><a href="https://scunify.readthedocs.io/" target="_blank" rel="noreferrer">[Documentation]</a></p>
+              </div>
+              <ul class="project-keywords" aria-label="Keywords">
+                <li class="keyword keyword-ai" title="AI Engineering" aria-label="DLOps, AI Engineering">DLOps</li>
+                <li class="keyword keyword-dl" title="Deep Learning" aria-label="Foundation Models, Deep Learning">Foundation Models</li>
+                <li class="keyword keyword-dl" title="Deep Learning" aria-label="Parameter-Efficient Fine-Tuning, Deep Learning">Parameter-Efficient Fine-Tuning</li>
+              </ul>
+              <dl class="project-meta">
+                <div class="project-meta-row">
+                  <dt>Role</dt>
+                  <dd>Project Lead</dd>
+                </div>
+              </dl>
+              <hr class="project-divider">
+              <div class="project-description">
+                <strong class="project-description-label">Description</strong>
+                <p>Unifies model training, inference, and parameter-efficient fine-tuning with shared workflows and CPU/GPU resource management.</p>
+              </div>
+            </article>
 
-        <article class="project-entry" id="covsf" aria-labelledby="covsf-title">
-          <p class="project-role">Methodology Lead</p>
-          <h3 id="covsf-title">CovSF <span class="project-title-detail">— Time-Series Forecasting with COVID-19 Clinical Data</span></h3>
-          <p class="project-description">Forecasts patient severity from longitudinal clinical records.</p>
-          <h4 class="skills-heading">Required Skills</h4>
-          <div class="project-requires">
-            <p><strong>Deep Learning:</strong> Recurrent Neural Networks, PyTorch, Time-Series Forecasting</p>
-            <p><strong>Model Interpretation:</strong> Integrated Gradients</p>
+            <article class="project-entry project-card" id="sphot" aria-labelledby="sphot-title">
+              <div class="project-heading">
+                <h4 id="sphot-title">Biomarker Discovery in Spatial Transcriptomics Data Using Deep Learning</h4>
+                <p class="project-links"><a href="publications.html#publication-sphot">[Publications]</a><a href="https://github.com/DHKim327/spHOT" target="_blank" rel="noreferrer">[Code]</a></p>
+              </div>
+              <ul class="project-keywords" aria-label="Keywords">
+                <li class="keyword keyword-dl" title="Deep Learning" aria-label="Multiple Instance Learning, Deep Learning">Multiple Instance Learning</li>
+                <li class="keyword keyword-analysis" title="Data Analysis" aria-label="Spatial Transcriptomics, Data Analysis">Spatial Transcriptomics</li>
+                <li class="keyword keyword-analysis" title="Data Analysis" aria-label="Biomarker Discovery, Data Analysis">Biomarker Discovery</li>
+              </ul>
+              <dl class="project-meta">
+                <div class="project-meta-row">
+                  <dt>Role</dt>
+                  <dd>Methodology Lead</dd>
+                </div>
+              </dl>
+              <hr class="project-divider">
+              <div class="project-description">
+                <strong class="project-description-label">Description</strong>
+                <p>Uses sample-level phenotype labels to identify associated tissue regions and cellular biomarkers in spatial transcriptomics.</p>
+              </div>
+            </article>
           </div>
-          <p class="project-links"><a href="index.html#publication-covsf">[Publication]</a><a href="https://github.com/cobi-git/CovSF" target="_blank" rel="noreferrer">[Code]</a></p>
-        </article>
+        </section>
 
-        <article class="project-entry" id="ac-patterns" aria-labelledby="ac-patterns-title">
-          <p class="project-role">Co-author</p>
-          <h3 id="ac-patterns-title">Air-Conditioner Analysis <span class="project-title-detail">— Big Data Pattern Recognition &amp; Discovery</span></h3>
-          <p class="project-description">Identifies air-conditioner usage patterns from longitudinal device logs.</p>
-          <h4 class="skills-heading">Required Skills</h4>
-          <div class="project-requires">
-            <p><strong>Deep Learning:</strong> Temporal Convolutional Networks, Deep Clustering</p>
-            <p><strong>Machine Learning:</strong> Spherical K-means, NMF</p>
-            <p><strong>Analysis:</strong> Time-Series Analysis, Pattern Recognition</p>
+        <section class="project-group" id="completed-projects" aria-labelledby="completed-projects-title">
+          <h3 class="project-group-heading" id="completed-projects-title">Completed Projects</h3>
+          <div class="project-grid">
+            <article class="project-entry project-card" id="scdstl" aria-labelledby="scdstl-title">
+              <div class="project-heading">
+                <h4 id="scdstl-title">Knowledge Transfer from Multiple Single-Cell Foundation Models</h4>
+                <p class="project-links"><a href="publications.html#publication-scdstl">[Publications]</a></p>
+              </div>
+              <ul class="project-keywords" aria-label="Keywords">
+                <li class="keyword keyword-dl" title="Deep Learning" aria-label="Foundation Models, Deep Learning">Foundation Models</li>
+                <li class="keyword keyword-dl" title="Deep Learning" aria-label="Knowledge Distillation, Deep Learning">Knowledge Distillation</li>
+                <li class="keyword keyword-dl" title="Deep Learning" aria-label="Representation Learning, Deep Learning">Representation Learning</li>
+              </ul>
+              <dl class="project-meta">
+                <div class="project-meta-row">
+                  <dt>Role</dt>
+                  <dd>Co-author</dd>
+                </div>
+              </dl>
+              <hr class="project-divider">
+              <div class="project-description">
+                <strong class="project-description-label">Description</strong>
+                <p>Transfers shared and model-specific representations from multiple foundation models to compact models for single-cell analysis.</p>
+              </div>
+            </article>
+
+            <article class="project-entry project-card" id="ac-patterns" aria-labelledby="ac-patterns-title">
+              <div class="project-heading">
+                <h4 id="ac-patterns-title">Large-Scale Analysis of Air-Conditioner Usage Patterns with Deep Learning</h4>
+                <p class="project-links"><a href="publications.html#publication-ac-patterns">[Publications]</a></p>
+              </div>
+              <ul class="project-keywords" aria-label="Keywords">
+                <li class="keyword keyword-analysis" title="Data Analysis" aria-label="Time-Series Modeling, Data Analysis">Time-Series Modeling</li>
+                <li class="keyword keyword-dl" title="Deep Learning" aria-label="Deep Clustering, Deep Learning">Deep Clustering</li>
+                <li class="keyword keyword-analysis" title="Data Analysis" aria-label="Large-Scale Data Analysis, Data Analysis">Large-Scale Data Analysis</li>
+              </ul>
+              <dl class="project-meta">
+                <div class="project-meta-row">
+                  <dt>Role</dt>
+                  <dd>Co-author</dd>
+                </div>
+                <div class="project-meta-row">
+                  <dt>Collaboration</dt>
+                  <dd>LG Electronics</dd>
+                </div>
+              </dl>
+              <hr class="project-divider">
+              <div class="project-description">
+                <strong class="project-description-label">Description</strong>
+                <p>Applies deep clustering to large-scale device logs to identify temporal control patterns and user groups.</p>
+              </div>
+            </article>
+
+            <article class="project-entry project-card" id="covsf" aria-labelledby="covsf-title">
+              <div class="project-heading">
+                <h4 id="covsf-title">Clinical Severity Forecasting and Biomarker Discovery</h4>
+                <p class="project-links"><a href="publications.html#publication-covsf">[Publications]</a><a href="https://github.com/cobi-git/CovSF" target="_blank" rel="noreferrer">[Code]</a></p>
+              </div>
+              <ul class="project-keywords" aria-label="Keywords">
+                <li class="keyword keyword-analysis" title="Data Analysis" aria-label="Time-Series Modeling, Data Analysis">Time-Series Modeling</li>
+                <li class="keyword keyword-analysis" title="Data Analysis" aria-label="Multimodal Data Analysis, Data Analysis">Multimodal Data Analysis</li>
+                <li class="keyword keyword-analysis" title="Data Analysis" aria-label="Biomarker Discovery, Data Analysis">Biomarker Discovery</li>
+              </ul>
+              <dl class="project-meta">
+                <div class="project-meta-row">
+                  <dt>Role</dt>
+                  <dd>Methodology Lead</dd>
+                </div>
+                <div class="project-meta-row">
+                  <dt>Collaboration</dt>
+                  <dd>
+                    <span>Kyungpook National University Chilgok Hospital (KNUCH)</span>
+                    <span>Korea National Institute of Health (KNIH)</span>
+                  </dd>
+                </div>
+              </dl>
+              <hr class="project-divider">
+              <div class="project-description">
+                <strong class="project-description-label">Description</strong>
+                <p>Forecasts COVID-19 severity from clinical time series and analyzes matched single-cell profiles for progression-associated biomarkers.</p>
+              </div>
+            </article>
           </div>
-          <p class="project-collaboration"><strong>Collaboration:</strong> LG Electronics</p>
-          <p class="project-links"><a href="index.html#publication-ac-patterns">[Publication]</a></p>
-        </article>
+        </section>
       </section>
       </div>
     </main>

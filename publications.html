@@ -3,21 +3,93 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Donghee Kim — Journal articles, conference presentations, and preprints.">
   <meta name="robots" content="noindex, nofollow, noarchive">
-  <title>Donghee Kim</title>
-  <script>
-    (() => {
-      const destinations = {
-        "publication-scunify": "index.html#publication-scunify",
-        "publication-sphot": "index.html#publication-sphot",
-        "publication-covsf": "index.html#publication-covsf",
-        "publication-ac-patterns": "index.html#publication-ac-patterns"
-      };
-      const anchor = location.hash.slice(1);
-      location.replace(Object.hasOwn(destinations, anchor) ? destinations[anchor] : "index.html#publications");
-    })();
-  </script>
-  <noscript><meta http-equiv="refresh" content="0; url=index.html#publications"></noscript>
+  <meta name="theme-color" content="#ffffff">
+  <title>Publications — Donghee Kim</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=publication-labels-1">
+  <script src="legacy-routes.js" defer></script>
 </head>
-<body><p>Continue to <a href="index.html#publications">Donghee Kim’s website</a>.</p></body>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="navigation" aria-label="Main navigation">
+      <a href="index.html" aria-current="true">Home</a>
+      <a href="playground.html">Playground</a>
+    </nav>
+  </header>
+  <div class="academic-layout">
+    <aside class="profile" aria-label="Profile and contents">
+      <img class="profile-photo" src="assets/profile-photo.svg" alt="Profile photo placeholder" width="180" height="225">
+      <h1>Donghee Kim</h1>
+      <p class="name-ko" lang="ko">김동희</p>
+      <p class="profile-role">AI Engineer &amp; Researcher</p>
+      <ul class="profile-links">
+        <li><a href="https://github.com/DHKim327" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.3 1.3-4.3-2.2-6-2.7m12 5v-3.4c.1-.9-.3-1.8-.8-2.4 2.8-.3 5.8-1.4 5.8-6.3a4.9 4.9 0 0 0-1.3-3.4 4.5 4.5 0 0 0-.1-3.4S17.5 2.1 15 3.8a12.1 12.1 0 0 0-6 0C6.5 2.1 5.4 2.4 5.4 2.4A4.5 4.5 0 0 0 5.3 5.8 4.9 4.9 0 0 0 4 9.2c0 4.9 3 6 5.8 6.3-.5.6-.9 1.5-.8 2.4v3.4"/></svg>GitHub</a></li>
+        <li><a href="https://orcid.org/0009-0005-2941-5220" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 10v6m0-9v.1m4 2.9h2a3 3 0 0 1 0 6h-2z"/></svg>ORCID</a></li>
+      </ul>
+      <nav class="contents-nav" aria-labelledby="contents-label">
+        <p class="contents-label" id="contents-label">Contents</p>
+        <ul>
+          <li><a href="index.html">Profiles</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="publications.html" aria-current="page">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main id="main" tabindex="-1">
+      <div class="page-content">
+      <section id="publications" aria-labelledby="publications-title">
+        <div class="section-heading"><h2 id="publications-title">Publications</h2><p class="section-note">* Equal contribution</p></div>
+        <ol class="publication-list">
+          <li class="publication" id="publication-sphot">
+            <p class="publication-type publication-type-preprint">Preprint</p>
+            <div class="publication-heading"><h3><a href="https://doi.org/10.64898/2026.08.11.744312" target="_blank" rel="noreferrer">Phenotype-associated spatial biomarker discovery in spatial transcriptomics with spHOT</a></h3><time datetime="2026">2026</time></div>
+            <p class="authors">Hoeyoung Kim*, <strong>Donghee Kim*</strong>, Sangwook Jung, Sangseon Lee, Kwangsoo Kim</p>
+            <p class="venue"><em>bioRxiv</em></p>
+            <p class="paper-links"><a href="https://doi.org/10.64898/2026.08.11.744312" target="_blank" rel="noreferrer">[Paper]</a><a href="https://github.com/DHKim327/spHOT" target="_blank" rel="noreferrer">[Code]</a></p>
+          </li>
+          <li class="publication" id="publication-scunify">
+            <p class="publication-type publication-type-preprint">Preprint</p>
+            <div class="publication-heading"><h3><a href="https://doi.org/10.64898/2026.03.01.708392" target="_blank" rel="noreferrer">scUnify: a unified framework for training and inference across multiple single-cell foundation models</a></h3><time datetime="2026">2026</time></div>
+            <p class="authors"><strong>Donghee Kim</strong>, Ari Hong, Kyeonghun Jeong, Kwangsoo Kim</p>
+            <p class="venue"><em>bioRxiv</em></p>
+            <p class="paper-links"><a href="https://doi.org/10.64898/2026.03.01.708392" target="_blank" rel="noreferrer">[Paper]</a><a href="https://github.com/DHKim327/scUnify" target="_blank" rel="noreferrer">[Code]</a><a href="https://scunify.readthedocs.io/" target="_blank" rel="noreferrer">[Documentation]</a></p>
+          </li>
+          <li class="publication" id="publication-aaa-imaging">
+            <p class="publication-type publication-type-journal">Journal</p>
+            <div class="publication-heading"><h3><a href="https://doi.org/10.1016/j.trsl.2025.05.008" target="_blank" rel="noreferrer">Multiplexed imaging-driven single-cell analysis of abdominal aortic aneurysm according to C-reactive protein deposition</a></h3><time datetime="2025">2025</time></div>
+            <p class="authors">Eun Na Kim, Hee Young Seok, Jiwon Koh, …, <strong>Donghee Kim</strong>, …, Se Jin Oh</p>
+            <p class="venue"><em>Translational Research</em>, 282, 14–30</p>
+            <p class="paper-links"><a href="https://doi.org/10.1016/j.trsl.2025.05.008" target="_blank" rel="noreferrer">[Paper]</a></p>
+          </li>
+          <li class="publication" id="publication-covsf">
+            <p class="publication-type publication-type-journal">Journal</p>
+            <div class="publication-heading"><h3><a href="https://doi.org/10.1038/s41598-025-07793-x" target="_blank" rel="noreferrer">Profiling short-term longitudinal severity progression and associated genes in COVID-19 patients using EHR and single-cell analysis</a></h3><time datetime="2025">2025</time></div>
+            <p class="authors">Seung Hwan Bae*, <strong>Donghee Kim*</strong>, Jaeyeon Jang, et al.</p>
+            <p class="venue"><em>Scientific Reports</em>, 15, 21098</p>
+            <p class="paper-links"><a href="https://doi.org/10.1038/s41598-025-07793-x" target="_blank" rel="noreferrer">[Paper]</a><a href="https://github.com/cobi-git/CovSF" target="_blank" rel="noreferrer">[Code]</a></p>
+          </li>
+          <li class="publication" id="publication-scdstl">
+            <p class="publication-type publication-type-conference">Conference</p>
+            <div class="publication-heading"><h3>scDSTL: Leveraging Foundation Model Representations for Task-Specific Single-Cell Analysis</h3><time datetime="2025">2025</time></div>
+            <p class="authors">Kyeonghun Jeong, <strong>Donghee Kim</strong>, and Kwangsoo Kim</p>
+            <p class="venue"><em>In The 29th Annual International Conference on Research in Computational Molecular Biology (RECOMB)</em>, 2025</p>
+            <p class="venue">Poster</p>
+          </li>
+          <li class="publication" id="publication-ac-patterns">
+            <p class="publication-type publication-type-journal">Journal</p>
+            <div class="publication-heading"><h3><a href="https://doi.org/10.1109/ACCESS.2025.3554749" target="_blank" rel="noreferrer">Identifying AC Control Patterns From a Massive Longitudinal Log Dataset Using Deep Clustering</a></h3><time datetime="2025">2025</time></div>
+            <p class="authors">Seunghwan Bae, <strong>Donghee Kim</strong>, Seokhwan Seong, Jaeyeon Jang, et al.</p>
+            <p class="venue"><em>IEEE Access</em>, 13, 56195–56209</p>
+            <p class="paper-links"><a href="https://doi.org/10.1109/ACCESS.2025.3554749" target="_blank" rel="noreferrer">[Paper]</a></p>
+          </li>
+        </ol>
+      </section>
+      </div>
+    </main>
+  </div>
+</body>
 </html>
