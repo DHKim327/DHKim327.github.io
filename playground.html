@@ -6,9 +6,9 @@
   <meta name="description" content="Donghee Kim — Personal projects and experiments.">
   <meta name="robots" content="noindex, nofollow, noarchive">
   <meta name="theme-color" content="#ffffff">
-  <title>Playground — Donghee Kim</title>
+  <title>Personal Projects — Donghee Kim</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=playground-quadrants-1">
+  <link rel="stylesheet" href="styles.css?v=playground-game-card-3">
   <script src="legacy-routes.js" defer></script>
 </head>
 <body>
@@ -20,21 +20,50 @@
     </nav>
   </header>
   <main id="main" class="playground-layout" tabindex="-1">
-    <h1 id="playground-title" class="playground-title">Playground</h1>
-    <div id="playground" class="playground-board" role="group" aria-labelledby="personal-projects-title">
-      <div class="playground-quadrant" role="group" aria-label="Personal project topic 1">
-        <span class="playground-topic-number" aria-hidden="true">01</span>
-      </div>
-      <div class="playground-quadrant" role="group" aria-label="Personal project topic 2">
-        <span class="playground-topic-number" aria-hidden="true">02</span>
-      </div>
-      <div class="playground-quadrant" role="group" aria-label="Personal project topic 3">
-        <span class="playground-topic-number" aria-hidden="true">03</span>
-      </div>
-      <div class="playground-quadrant" role="group" aria-label="Personal project topic 4">
-        <span class="playground-topic-number" aria-hidden="true">04</span>
-      </div>
-      <h2 id="personal-projects-title" class="playground-hub">Personal Projects</h2>
+    <h1 id="personal-projects-title" class="playground-title">Personal Projects</h1>
+    <div id="playground">
+      <details class="playground-card" id="game" open>
+        <summary>
+          <div class="playground-category-label">
+            <h2 class="playground-category-title">Game</h2>
+            <span class="playground-category-count">4 projects</span>
+          </div>
+          <span class="playground-category-arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="m9 5 7 7-7 7" /></svg>
+          </span>
+        </summary>
+        <ul class="playground-projects">
+          <li id="pubg-analysis">
+            <h3>PUBG Data Analysis</h3>
+            <p>Exploring patterns in match data.</p>
+            <div class="playground-project-meta">
+              <span class="playground-github-pending">GitHub link coming soon</span>
+            </div>
+          </li>
+          <li id="poketllogue">
+            <h3>PoketLLogue</h3>
+            <p>LLM-controlled PokeRogue battles.</p>
+            <div class="playground-project-meta">
+              <span class="playground-github-pending">GitHub link coming soon</span>
+            </div>
+          </li>
+          <li id="cyphers-mcp-server">
+            <h3>CyphersMCPServer</h3>
+            <p>An MCP server for Cyphers.</p>
+            <div class="playground-project-meta">
+              <span class="playground-github-pending">GitHub link coming soon</span>
+            </div>
+          </li>
+          <li id="travel-game">
+            <h3>3D Travel Game</h3>
+            <p>Revisit travel memories through a 3D world built from photos and videos.</p>
+            <div class="playground-project-meta">
+              <span class="playground-planning">Planning</span>
+              <span class="playground-github-pending">GitHub link coming soon</span>
+            </div>
+          </li>
+        </ul>
+      </details>
     </div>
   </main>
 </body>
